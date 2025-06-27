@@ -1,6 +1,7 @@
-# 📚 Algorithms and Data Structures
 
-Este repositorio contiene implementaciones de estructuras de datos y algoritmos fundamentales en Python. Está diseñado como recurso educativo para estudiantes, desarrolladores y entusiastas de la informática que deseen mejorar su comprensión de los fundamentos de la programación.
+# 📚 Data Structures and Algorithms
+
+Este repositorio contiene implementaciones de estructuras de datos y algoritmos clásicos en Python. Está diseñado como recurso educativo para estudiantes, desarrolladores y entusiastas de la informática que deseen mejorar su comprensión de los fundamentos de la programación.
 
 ---
 
@@ -10,10 +11,12 @@ Proporcionar una colección clara y bien organizada de algoritmos y estructuras 
 
 ---
 
-## 📁 Estructura del proyecto
-
-```
+## 📂 Contenido
+```text
 algorithms-and-data-structures-main/
+├── .github/
+│   └── workflows/
+│       └── python-tests.yml
 ├── .gitignore
 ├── README.md
 ├── algorithms/
@@ -57,14 +60,20 @@ algorithms-and-data-structures-main/
 │   ├── linked_list/
 │   │   ├── doubly_linked_list.py
 │   │   └── singly_linked_list.py
+│   ├── min_heap/
+│   │   └── min_heap.py
 │   ├── queue/
 │   │   └── queue.py
 │   ├── stack/
 │   │   └── stack.py
-│   └── tree/
-│       ├── avl_tree.py
-│       ├── binary_search_tree.py
-│       └── trie.py
+│   ├── tree/
+│   │   ├── avl_tree.py
+│   │   ├── binary_search_tree.py
+│   │   └── trie.py
+│   ├── trie/
+│   │   └── trie.py
+│   └── union_find/
+│       └── union_find.py
 ├── foulder_tree.py
 └── tests/
     ├── test_dinamyc_programming.py
@@ -74,13 +83,15 @@ algorithms-and-data-structures-main/
     ├── test_hash_table.py
     ├── test_linked_list.py
     ├── test_math.py
+    ├── test_min_heap.py
     ├── test_queue.py
     ├── test_search.py
     ├── test_sorting.py
     ├── test_stack.py
-    └── test_tree.py
+    ├── test_tree.py
+    ├── test_trie.py
+    └── test_union_find.py
 ```
-
 ---
 
 ## 🧠 Estructuras de datos implementadas
@@ -103,32 +114,7 @@ algorithms-and-data-structures-main/
 
 ---
 
-## 🧪 Pruebas
-
-Las pruebas están ubicadas en la carpeta `tests/` y cubren la mayoría de las estructuras y algoritmos. Para ejecutarlas:
-
-```bash
-pytest tests/
-```
-
----
-
-## 🚀 Cómo empezar
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/AlvaroLopez-Jurado/algorithms-and-data-structures.git
-   cd algorithms-and-data-structures
-   ```
-
-2. Ejecuta un archivo de ejemplo:
-   ```bash
-   python data_structures/stack/stack.py
-   ```
-
----
-
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías
 
 - Python 3.8+
 - Pytest para testing
@@ -136,13 +122,45 @@ pytest tests/
 
 ---
 
-## 📄 Licencia
+## 🚀 Cómo ejecutar
 
-Este proyecto está bajo la licencia MIT. Puedes usarlo libremente para fines educativos y personales.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/AlvaroLopez-Jurado/data-structures-and-algorithms.git
+   cd data-structures-and-algorithms
+   ```
+
+2. Ejecuta los scripts directamente:
+   ```bash
+   python linked_list/singly_linked_list.py
+   ```
+
+3. (Opcional) Usa un entorno virtual:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # En Linux/Mac
+   venv\Scripts\activate     # En Windows
+   ```
+
+4. Ejecutar tests:
+   ```bash
+   python -m unittest discover tests
+   ```
 
 ---
 
-## 🙋 Autor
+## 🤝 Contribuciones
 
-**Álvaro López-Jurado**  
-GitHub: @AlvaroLopez-Jurado
+¡Las contribuciones son bienvenidas! Puedes abrir un issue o enviar un pull request con mejoras, correcciones o nuevos algoritmos.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+## 📬 Contacto
+
+Creado por Álvaro López-Jurado — no dudes en contactarme para sugerencias o colaboraciones.
