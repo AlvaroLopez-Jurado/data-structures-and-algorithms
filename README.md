@@ -87,7 +87,6 @@ algorithms-and-data-structures-main/
     ├── test_sorting.py
     ├── test_stack.py
     ├── test_tree.py
-    ├── test_trie.py
     └── test_union_find.py
 ```
 ---
