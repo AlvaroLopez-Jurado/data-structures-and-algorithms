@@ -70,8 +70,6 @@ algorithms-and-data-structures-main/
 │   │   ├── avl_tree.py
 │   │   ├── binary_search_tree.py
 │   │   └── trie.py
-│   ├── trie/
-│   │   └── trie.py
 │   └── union_find/
 │       └── union_find.py
 ├── foulder_tree.py
